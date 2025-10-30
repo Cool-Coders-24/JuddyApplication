@@ -9,6 +9,9 @@ class  Ex1
 		static{
 		System.out.println("static block");
 	}
+	static{
+		System.out.println("new static block added");
+	}
 	{
 		
 	}
