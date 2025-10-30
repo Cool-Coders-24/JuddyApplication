@@ -5,6 +5,7 @@ class Father
 	String shop="Vegetable shop";
 	String factory="4 factories";
 	String other="xyz";
+	int whitetees="123";
 }
 class  Son extends Father
 {
@@ -22,5 +23,6 @@ class  Son extends Father
 		System.out.println(s.shop);
 		System.out.println(s.degree);
 		System.out.println(s.factory);
+		System.out.println(s.whitetees);
 	}
 }
