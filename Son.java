@@ -3,6 +3,7 @@ class Father
 	String property="100 acers";
 	String collection="2 cars and 2 bikes";
 	String shop="Vegetable shop";
+	String factory="4 factories"
 }
 class  Son extends Father
 {
@@ -19,5 +20,6 @@ class  Son extends Father
 		System.out.println(s.collection);
 		System.out.println(s.shop);
 		System.out.println(s.degree);
+		System.out.println(s.factory);
 	}
 }
