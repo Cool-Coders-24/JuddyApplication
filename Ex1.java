@@ -1,5 +1,8 @@
 class  Ex1
 {
+	public Ex1(){
+		System.out.println("constructor added");
+	}
 	static{
 		System.out.println("static block");
 	}
@@ -21,6 +24,7 @@ class  Ex1
 	public static void main(String[] args) 
 	{
 		System.out.println("main method");
+	
 	}
 }
 static block
